@@ -19,7 +19,7 @@ const OptimizeWebsiteSection = () => {
      <div className="flex flex-wrap w-full gap-5 justify-center">
         {OptimizeWebsiteSectionData.map((item)=>(
           <div key={item.id} className="bg-[#FAFAFA] p-9 shadow-sm w-fit relative">
-            <h3 className="text-l">{item.smallTitle.toLocaleUpperCase()}</h3>
+            <h3 className="text-l">{item.smallTitle.toUpperCase()}</h3>
             <h2 className="text-2xl font-bold -mt-1">{item.Title}</h2>
             <span className="absolute top-12 right-12 text-[#0948B3] text-5xl">{item.Icon}</span>
             <p className="md:w-[32em] my-6 w-[20em]">{item.Content}</p>

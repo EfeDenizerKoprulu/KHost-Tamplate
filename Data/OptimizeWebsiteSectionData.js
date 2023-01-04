@@ -5,7 +5,7 @@ export const OptimizeWebsiteSectionData = [
     id: 1,
     smallTitle: "Easy & First",
     Title: "Website Building ",
-    Icon: <BiCodeAlt/>,
+    Icon: <BiCodeAlt />,
     Content:
       "Globally fashion client-focused synergy for accurate synergy. Quickly network cost effective ideas rather than standardized leadership. Interactively syndicate alternative opportunities via ubiquitous systems.",
   },
@@ -13,7 +13,7 @@ export const OptimizeWebsiteSectionData = [
     id: 2,
     smallTitle: "Suitable For All Users ",
     Title: "Managed WordPress ",
-    Icon: <BiWorld/>,
+    Icon: <BiWorld />,
     Content:
       "Globally fashion client-focused synergy for accurate synergy. Quickly network cost effective ideas rather than standardized leadership. Interactively syndicate alternative opportunities via ubiquitous systems.",
   },
@@ -21,7 +21,7 @@ export const OptimizeWebsiteSectionData = [
     id: 3,
     smallTitle: "Commitment To",
     Title: " Dedicated Support ",
-    Icon: <BiSupport/>,
+    Icon: <BiSupport />,
     Content:
       "Globally fashion client-focused synergy for accurate synergy. Quickly network cost effective ideas rather than standardized leadership. Interactively syndicate alternative opportunities via ubiquitous systems.",
   },
@@ -29,9 +29,8 @@ export const OptimizeWebsiteSectionData = [
     id: 4,
     smallTitle: " Easy & Smooth",
     Title: " Website Transfer",
-    Icon: <FaRegPaperPlane/>,
+    Icon: <FaRegPaperPlane />,
     Content:
       "Globally fashion client-focused synergy for accurate synergy. Quickly network cost effective ideas rather than standardized leadership. Interactively syndicate alternative opportunities via ubiquitous systems.",
-   
-  },
+  }
 ];
