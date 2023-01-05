@@ -1,4 +1,4 @@
-import { BiCodeAlt, BiWorld, FaRegPaperPlane, BiSupport } from "../icons";
+import { BiCodeAlt, BiWorld, FaRegPaperPlane, BiSupport } from "../../icons";
 
 export const OptimizeWebsiteSectionData = [
   {

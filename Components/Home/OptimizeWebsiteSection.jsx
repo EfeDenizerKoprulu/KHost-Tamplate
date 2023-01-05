@@ -22,7 +22,8 @@ const OptimizeWebsiteSection = () => {
             <h3 className="text-l">{item.smallTitle.toUpperCase()}</h3>
             <h2 className="text-2xl font-bold -mt-1">{item.Title}</h2>
             <span className="absolute top-12 right-12 text-[#0948B3] text-5xl">{item.Icon}</span>
-            <p className="md:w-[32em] my-6 w-[20em]">{item.Content}</p>
+            <p className="md:w-[32em] my-6 w-[20em] text-slate-600">{item.Content}</p>
+            <button className="text-center p-3 font-semibold text-sm text-[#0948b3]  border-[#094883] border-[1px] hover:text-white hover:bg-[#0948b3] ease-in duration-150 transition-all">Wiew more details</button>
           </div>
         ))}
       </div>

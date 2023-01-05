@@ -4,9 +4,9 @@ import {
   onlineDomainExtension,
   orgDomainExtension,
   storeDomainExtension,
-} from "../img";
+} from "../../img";
 
-export const FindDomainCard = [
+export const FindDomainCardData = [
   {
     Id: 1,
     DomainExtensionImage: comDomainExtension,

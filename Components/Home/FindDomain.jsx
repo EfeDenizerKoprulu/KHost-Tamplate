@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { HomeOneImg } from "../../img";
-import { FindDomainCard } from "../../Data";
+import { FindDomainCardData } from "../../Data";
 
 const FindDomain = () => {
   return (
@@ -42,7 +42,7 @@ const FindDomain = () => {
    {/* domain prices */}
    <div className="hidden md:flex items-center justify-center mt-6 gap-3">
     
-    {FindDomainCard.map((item)=> (
+    {FindDomainCardData.map((item)=> (
       <div key={item.key} className="bg-white py-1 px-3 h-fit">
        <div className="w-[61px] h-[25px] object-cover relative">
        <Image src={item.DomainExtensionImage} alt={item.alt} fill />

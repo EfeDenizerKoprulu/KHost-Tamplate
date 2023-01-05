@@ -1,6 +1,6 @@
 import React from "react";
 import { BestCloudImage } from "../../img";
-import { BestHostingSectionCard } from "../../Data";
+import { BestHostingSectionCardData } from "../../Data";
 import Image from "next/image";
 
 const BestHostingSection = () => {
@@ -23,7 +23,7 @@ const BestHostingSection = () => {
 
         <div className="lg:flex justify-center md:gap-8 gap-12 md:w-fit text-center md:mx-auto">
           {/* Card */}
-          {BestHostingSectionCard.map((card) => (
+          {BestHostingSectionCardData.map((card) => (
             <div
               key={card.Id}
               className=" shadow-sm py-5  mt-5 px-5 items-center rounded-2xl shadow-slate-400 hover:bg-[#0948B3] hover:text-white aa transition-colors ease-out duration-700"

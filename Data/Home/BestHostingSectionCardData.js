@@ -1,6 +1,6 @@
-import { FaCubes,FaLock,BiSupport } from "../icons";
+import { FaCubes,FaLock,BiSupport } from "../../icons";
 
-export const BestHostingSectionCard = [
+export const BestHostingSectionCardData = [
   {
     Id: 1,
     Icon: <FaCubes/>,
