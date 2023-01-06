@@ -3,8 +3,10 @@ import { OptimizeWebsiteSectionData } from "../../Data";
 
 const OptimizeWebsiteSection = () => {
   return (
+    
     <section className="py-20">
       <div className="items-center justify-center flex flex-col gap-3">
+          {/* Title */}
         <h2 className="text-3xl font-inter font-bold md:w-[20em] text-center w-[13em]">
           Our Tools And Services For Optimize Website Building
         </h2>
@@ -15,6 +17,7 @@ const OptimizeWebsiteSection = () => {
           manufactured products.{" "}
         </p>
       </div>
+        {/* Card */}
      <div className="w-3/4 mx-auto my-12">
      <div className="flex flex-wrap w-full gap-5 justify-center">
         {OptimizeWebsiteSectionData.map((item)=>(
