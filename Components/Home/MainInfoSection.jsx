@@ -4,7 +4,7 @@ import React from "react";
 import { MainInfoData, CallCenterData } from "../../Data";
 import { BsArrowRight, AiFillMail, AiFillPhone } from "../../icons";
 
-const MainInfo = () => {
+const MainInfoSection = () => {
   return (
     <>
      {/* main info sectition */}
@@ -66,4 +66,4 @@ const MainInfo = () => {
   );
 };
 
-export default MainInfo;
+export default MainInfoSection;

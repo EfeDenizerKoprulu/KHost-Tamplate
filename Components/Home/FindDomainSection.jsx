@@ -4,7 +4,7 @@ import { BiSearchAlt } from "react-icons/bi";
 import { HomeOneImg } from "../../img";
 import { FindDomainCardData } from "../../Data";
 
-const FindDomain = () => {
+const FindDomainSection = () => {
   return (
     <section className=" h-fit w-full">
       {/** image */}
@@ -62,4 +62,4 @@ const FindDomain = () => {
   );
 };
 
-export default FindDomain;
+export default FindDomainSection;
