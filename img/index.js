@@ -1,14 +1,15 @@
-import logo from "./logo.png"
-import HomeOneImg from "./home.svg"
-import comDomainExtension from "./comDomainExtension.png"
-import netDomainExtension from "./netDomainExtension.png"
-import onlineDomainExtension from "./onlineDomainExtension.png"
-import orgDomainExtension from "./orgDomainExtension.png"
-import storeDomainExtension from "./storeDomainExtension.png"
-import BestCloudImage from "./cta-new.svg"
-import feature1 from "./feature-new-1.svg"
-import feature2 from "./feature-new-2.svg"
-import CallCenter from "./call-center-support.svg"
+import logo from "./Header/logo.png"
+import HomeOneImg from "./FindDomain/home.svg"
+import comDomainExtension from "./FindDomain/comDomainExtension.png"
+import netDomainExtension from "./FindDomain/netDomainExtension.png"
+import onlineDomainExtension from "./FindDomain/onlineDomainExtension.png"
+import orgDomainExtension from "./FindDomain/orgDomainExtension.png"
+import storeDomainExtension from "./FindDomain/storeDomainExtension.png"
+import BestCloudImage from "./BestHosting/cta-new.svg"
+import feature1 from "./Mainİnfo/feature-new-1.svg"
+import feature2 from "./Mainİnfo/feature-new-2.svg"
+import CallCenter from "./Support/call-center-support.svg"
+import map from "./Location/map.svg"
 
 export{
 logo,
@@ -22,4 +23,5 @@ BestCloudImage,
 feature1,
 feature2,
 CallCenter,
+map
 }
