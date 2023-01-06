@@ -7,11 +7,12 @@ import { BsArrowRight, AiFillMail, AiFillPhone } from "../../icons";
 const MainInfo = () => {
   return (
     <>
-      <section className="pt-20 md:px-20 px-7 w-full relative">
+     {/* main info sectition */}
+      <section className="pt-20 md:px-20 px-7 w-full">
         {MainInfoData.map((item) => (
           <div
             key={item.Id}
-            className="lg:flex justify-around h-[30em] relative"
+            className="lg:flex justify-around h-fit md:sm:mb-12 lg:my-0"
           >
             <div>
               <h2 className="text-3xl font-bold md:w-[18em] w-[10em]">
@@ -25,12 +26,14 @@ const MainInfo = () => {
                 </span>
               </div>
             </div>
-            <div className="relative object-contain md:w-[35em] w-[20em] lg:bottom-28 md:h-[28em] h-[18em] my-12">
+            <div className="relative object-contain md:w-[35em] w-[20em] lg:bottom-28 md:h-[28em] h-[18em] lg:my-12">
               <Image src={item.Image} alt="" fill />
             </div>
           </div>
         ))}
       </section>
+
+      {/* support section */}
       <section className="bg-[#0948B3] p-10">
         {CallCenterData.map((item) => (
           <div className="md:flex justify-around items-center" key={item.Id}>
