@@ -9,7 +9,7 @@ import BestCloudImage from "./BestHosting/cta-new.svg"
 import feature1 from "./Mainİnfo/feature-new-1.svg"
 import feature2 from "./Mainİnfo/feature-new-2.svg"
 import CallCenter from "./Support/call-center-support.svg"
-import map from "./Location/map.svg"
+import Map from "./Location/map.svg"
 
 export{
 logo,
@@ -23,5 +23,5 @@ BestCloudImage,
 feature1,
 feature2,
 CallCenter,
-map
+Map
 }

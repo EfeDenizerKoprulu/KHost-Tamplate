@@ -1,0 +1,18 @@
+.point1 {
+  @apply top-[29%] left-[15.5%];
+}
+.point2 {
+  @apply top-[42%] left-[20%];
+}
+.point3 {
+  @apply top-[70%] left-[32%];
+}
+.point4 {
+  @apply top-[57%] left-[48%];
+}
+.point5 {
+  @apply top-[18%] left-[53%];
+}
+.point6 {
+  @apply top-[34%] left-[55%];
+}
