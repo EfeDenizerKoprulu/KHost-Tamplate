@@ -8,12 +8,12 @@ const FindDomainSection = () => {
   return (
     <section className=" h-fit w-full">
       {/** image */}
-      <div className="bg-[#0948B3] lg:md:flex justify-around md:pt-12 lg:pt-6 pt-7 h-[41em] ">
-        <div className=" flex flex-col justify-center text-white gap-4 md:pt-0 lg:mx-24 md: mx-16 items-center lg:items-start">
-          <h2 className="lg:text-4xl md:text-3xl font-serif  font-bold lg:w-[16em] md:w-[14em] text-3xl lg:px-0 -ml-8 ">
+      <div className="bg-[#0948B3] lg:md:flex justify-around md:pt-12 lg:pt-6 pt-7 h-[41em] items-center ">
+        <div className=" flex flex-col text-white gap-4 md:pt-0 lg:mx-24 md: mx-16">
+          <h2 className="lg:text-4xl md:text-3xl font-serif  font-bold lg:w-[16em] text-3xl lg:px-0 ">
             Unlimited Domain & Hosting in One Platform
           </h2>
-          <p className="font-serif text-xl  mt-4 md:mt-0 lg:w-[25em] md:w-[18em] mr-12 w-[15em] md:-ml-[2em]">
+          <p className="font-serif text-xl lg:w-[25em] md:w-full">
             A ton of website hosting options, 99.9% uptime guarantee, free SSL
             certificate, easy WordPress installs.
           </p>
@@ -47,7 +47,7 @@ const FindDomainSection = () => {
        <div className="w-[61px] h-[25px] object-cover relative">
        <Image src={item.DomainExtensionImage} alt={item.alt} fill />
        </div>
-        <p className="relative bottom-[3px] opacity-60 text-center text-md">{item.PriceText.toLocaleUpperCase()}</p>
+        <p className="relative bottom-[3px] opacity-60 text-center text-md">{item.PriceText.toUpperCase()}</p>
       </div>
     ))}
 

@@ -35,4 +35,22 @@ export const LocationSectionData =[
         Description:"Ukraine",
 
     },
+    {
+        id:7,
+        Class:"point7",
+        Description:"India",
+
+    },
+    {
+        id:8,
+        Class:"point8",
+        Description:"China",
+
+    },
+    {
+        id:9,
+        Class:"point9",
+        Description:"Australia",
+
+    },
 ];

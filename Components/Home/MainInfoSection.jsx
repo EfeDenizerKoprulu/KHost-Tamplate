@@ -38,9 +38,9 @@ const MainInfoSection = () => {
         {CallCenterData.map((item) => (
           <div className="md:flex justify-around items-center" key={item.Id}>
             <div className="text-white gap-3 flex flex-col">
-              <h2 className="font-bold text-3xl w-[20em]">{item.Title}</h2>
-              <p className="w-[39em]">{item.content}</p>
-              <div className="flex gap-9">
+              <h2 className="font-bold md:text-3xl text-2xl md:w-[20em] w-[15em]">{item.Title}</h2>
+              <p className="md:w-[39em] w-[23em]">{item.content}</p>
+              <div className="flex md:gap-9 gap-4">
                 <Link href={item.Mail} className="flex items-center">
                   <span className="mr-2 text-orange-400">
                     <AiFillMail />
@@ -56,7 +56,7 @@ const MainInfoSection = () => {
                 </Link>
               </div>
             </div>
-            <div className="relative object-contain h-[250px]  w-[250px]">
+            <div className="lg:block relative object-contain h-[250px]  w-[250px] hidden">
               <Image src={item.Image} alt="" fill />
             </div>
           </div>
