@@ -2,8 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Map } from "../../img";
 import { LocationSectionData } from "../../Data";
-import { IoMdArrowDropleft } from "../../icons";
-import Pointer from "../PartiteComponent/Pointer";
+import Pointer from "../PartiteComponent/Pointer/Pointer";
 
 const LocationSection = () => {
   return (

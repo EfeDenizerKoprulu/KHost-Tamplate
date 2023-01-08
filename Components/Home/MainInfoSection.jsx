@@ -39,8 +39,8 @@ const MainInfoSection = () => {
           <div className="md:flex justify-around items-center" key={item.Id}>
             <div className="text-white gap-3 flex flex-col">
               <h2 className="font-bold md:text-3xl text-2xl md:w-[20em] w-[15em]">{item.Title}</h2>
-              <p className="md:w-[39em] w-[23em]">{item.content}</p>
-              <div className="flex md:gap-9 gap-4">
+              <p className="md:w-[39em] w-[21em]">{item.content}</p>
+              <div className="flex md:gap-9 gap-4 md:flex-row flex-col">
                 <Link href={item.Mail} className="flex items-center">
                   <span className="mr-2 text-orange-400">
                     <AiFillMail />

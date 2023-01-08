@@ -1,5 +1,5 @@
 import React from "react";
-import { IoMdArrowDropleft } from "../../icons";
+import { IoMdArrowDropleft } from "../../../icons";
 import aa from "./Pointer.module.css";
 
 const Pointer = (props) => {

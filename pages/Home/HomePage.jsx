@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "../../Components/Home/SlideSectionr";
 import {
   BestHosting,
   FindDomain,
@@ -17,6 +18,8 @@ const Home = () => {
       <PricePlan />
       <MainInfo />
       <Location />
+      <Slider/>
+      hjvajvg
     </>
   );
 };
