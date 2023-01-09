@@ -21,7 +21,7 @@ const LocationSection = () => {
         {LocationSectionData.map((item) => (
           <Pointer
             Class={item.Class}
-            key={item.id}
+            key={item.Id}
             Description={item.Description}
           />
         ))}

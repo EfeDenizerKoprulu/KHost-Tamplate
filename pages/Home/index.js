@@ -4,3 +4,5 @@ export {default as Location} from "../../Components/Home/LocationSection";
 export {default as MainInfo} from "../../Components/Home/MainInfoSection";
 export {default as OptimizeWebsite} from "../../Components/Home/OptimizeWebsiteSection";
 export {default as PricePlan} from "../../Components/Home/PricePlanSection";
+export {default as NewsEvent} from "../../Components/Home/NewsEventSection";
+export {default as Partner} from "../../Components/Home/PartnerSection";

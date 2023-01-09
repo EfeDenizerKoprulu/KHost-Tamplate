@@ -1,7 +1,7 @@
 import { BsCloudUploadFill,BsArrowRight } from "react-icons/bs";
 import { AiFillDatabase, AiFillPhone, AiFillMail} from "react-icons/ai";
 import { BiCodeAlt, BiWorld, BiSupport } from "react-icons/bi";
-import { FaRegPaperPlane, FaCubes, FaLock, FaServer } from "react-icons/fa";
+import { FaUserCircle,FaRegPaperPlane, FaCubes, FaLock, FaServer, FaCommentDots } from "react-icons/fa";
 import { IoMdArrowDropleft } from "react-icons/io"
 
 export {
@@ -14,6 +14,8 @@ export {
   FaLock,
   FaCubes,
   FaServer,
+  FaCommentDots,
+  FaUserCircle,
   AiFillDatabase,
   AiFillPhone,
   AiFillMail,

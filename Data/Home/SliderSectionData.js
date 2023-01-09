@@ -10,7 +10,7 @@ import {
 export const SliderSectionData = [
   {
     Id: 1,
-    Title: "Amazing Tamplate",
+    Title: "Amazing Template",
     Description:
       "Distinctively foster maintainable metrics whereas multidisciplinary process improvements. Distinctively foster maintainable metrics whereas multidisciplinary process improvements. Objectively implement strategic niches through.",
     Avatar: SliderAvatarEfe,

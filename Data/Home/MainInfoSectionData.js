@@ -1,6 +1,6 @@
 import { CallCenter, feature1, feature2 } from "../../img";
 
-export const MainInfoData = [
+export const MainInfoSectionData = [
   {
     Id: 1,
     Title: "99% Cloud Hosing High-speed Cutting-edge Platform",
@@ -18,7 +18,7 @@ export const MainInfoData = [
   },
 ];
 
-export const CallCenterData=[
+export const CallCenterSectionData=[
  {
   Id:1,
   Title:" 24/7 Expert Hosting Support Our Customers Love ",

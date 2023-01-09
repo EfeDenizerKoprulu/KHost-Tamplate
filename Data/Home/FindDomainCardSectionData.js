@@ -6,7 +6,7 @@ import {
   storeDomainExtension,
 } from "../../img";
 
-export const FindDomainCardData = [
+export const FindDomainCardSectionData = [
   {
     Id: 1,
     DomainExtensionImage: comDomainExtension,

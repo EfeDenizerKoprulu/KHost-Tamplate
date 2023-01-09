@@ -2,7 +2,7 @@ import { BiCodeAlt, BiWorld, FaRegPaperPlane, BiSupport } from "../../icons";
 
 export const OptimizeWebsiteSectionData = [
   {
-    id: 1,
+    Id: 1,
     smallTitle: "Easy & First",
     Title: "Website Building ",
     Icon: <BiCodeAlt />,
@@ -10,7 +10,7 @@ export const OptimizeWebsiteSectionData = [
       "Globally fashion client-focused synergy for accurate synergy. Quickly network cost effective ideas rather than standardized leadership. Interactively syndicate alternative opportunities via ubiquitous systems.",
   },
   {
-    id: 2,
+    Id: 2,
     smallTitle: "Suitable For All Users ",
     Title: "Managed WordPress ",
     Icon: <BiWorld />,
@@ -18,7 +18,7 @@ export const OptimizeWebsiteSectionData = [
       "Globally fashion client-focused synergy for accurate synergy. Quickly network cost effective ideas rather than standardized leadership. Interactively syndicate alternative opportunities via ubiquitous systems.",
   },
   {
-    id: 3,
+    Id: 3,
     smallTitle: "Commitment To",
     Title: " Dedicated Support ",
     Icon: <BiSupport />,
@@ -26,7 +26,7 @@ export const OptimizeWebsiteSectionData = [
       "Globally fashion client-focused synergy for accurate synergy. Quickly network cost effective ideas rather than standardized leadership. Interactively syndicate alternative opportunities via ubiquitous systems.",
   },
   {
-    id: 4,
+    Id: 4,
     smallTitle: " Easy & Smooth",
     Title: " Website Transfer",
     Icon: <FaRegPaperPlane />,

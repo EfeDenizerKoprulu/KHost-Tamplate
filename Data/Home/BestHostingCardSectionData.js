@@ -1,6 +1,6 @@
 import { FaCubes,FaLock,BiSupport } from "../../icons";
 
-export const BestHostingSectionCardData = [
+export const BestHostingCardSectionData = [
   {
     Id: 1,
     Icon: <FaCubes/>,

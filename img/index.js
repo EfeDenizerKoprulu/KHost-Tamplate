@@ -16,6 +16,12 @@ import SliderAvatarGunay from "./Slider/avatarGunay.jpg"
 import SliderAvatarHakan from "./Slider/avatarHakan.jpg"
 import SliderAvatarAtom from "./Slider/avatarAtom.jpg"
 import SliderAvatarJohn from "./Slider/avatarJohn.jpg"
+import Cafe40Logo from "./Partners/Cafe40.png"
+import AnalougeLogo from "./Partners/Analouge.png"
+import ARLogo from "./Partners/ARLogo.png"
+import ConsultLogo from "./Partners/Consult.png"
+import MitchellLogo from "./Partners/Mitchell.png"
+import SurvatanLogo from "./Partners/Survatan.png"
 
 
 export{
@@ -51,5 +57,13 @@ SliderAvatarAtom,
 SliderAvatarEfe,
 SliderAvatarGunay,
 SliderAvatarHakan,
-SliderAvatarJohn
+SliderAvatarJohn,
+
+// Partners
+Cafe40Logo,
+ConsultLogo,
+AnalougeLogo,
+SurvatanLogo,
+MitchellLogo,
+ARLogo,
 }

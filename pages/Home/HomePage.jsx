@@ -7,6 +7,8 @@ import {
   MainInfo,
   OptimizeWebsite,
   PricePlan,
+  NewsEvent,
+  Partner
 } from "./";
 
 const Home = () => {
@@ -19,7 +21,10 @@ const Home = () => {
       <MainInfo />
       <Location />
       <Slider/>
-      hjvajvg
+      <NewsEvent/>,
+      <Partner/>
+
+      
     </>
   );
 };

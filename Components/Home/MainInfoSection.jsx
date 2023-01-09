@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { MainInfoData, CallCenterData } from "../../Data";
+import { MainInfoSectionData, CallCenterSectionData } from "../../Data";
 import { BsArrowRight, AiFillMail, AiFillPhone } from "../../icons";
 
 const MainInfoSection = () => {
@@ -9,7 +9,7 @@ const MainInfoSection = () => {
     <>
      {/* main info sectition */}
       <section className="pt-20 md:px-20 px-7 w-full">
-        {MainInfoData.map((item) => (
+        {MainInfoSectionData.map((item) => (
           <div
             key={item.Id}
             className="lg:flex justify-around h-fit md:sm:mb-12 lg:my-0"
@@ -35,7 +35,7 @@ const MainInfoSection = () => {
 
       {/* support section */}
       <section className="bg-[#0948B3] p-10">
-        {CallCenterData.map((item) => (
+        {CallCenterSectionData.map((item) => (
           <div className="md:flex justify-around items-center" key={item.Id}>
             <div className="text-white gap-3 flex flex-col">
               <h2 className="font-bold md:text-3xl text-2xl md:w-[20em] w-[15em]">{item.Title}</h2>

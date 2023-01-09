@@ -1,54 +1,54 @@
 export const LocationSectionData =[
     {
-        id:1,
+        Id:1,
         Class:"point1",
         Description:"Canada",
 
     },
     {
-        id:2,
+        Id:2,
         Class:"point2",
-        Description:"United States",
+        Description:"USA",
 
     },
     {
-        id:3,
+        Id:3,
         Class:"point3",
         Description:"Brazil",
 
     },
     {
-        id:4,
+        Id:4,
         Class:"point4",
         Description:"Nigeria",
 
     },
     {
-        id:5,
+        Id:5,
         Class:"point5",
         Description:"Finland",
 
     },
     {
-        id:6,
+        Id:6,
         Class:"point6",
         Description:"Ukraine",
 
     },
     {
-        id:7,
+        Id:7,
         Class:"point7",
         Description:"India",
 
     },
     {
-        id:8,
+        Id:8,
         Class:"point8",
         Description:"China",
 
     },
     {
-        id:9,
+        Id:9,
         Class:"point9",
         Description:"Australia",
 

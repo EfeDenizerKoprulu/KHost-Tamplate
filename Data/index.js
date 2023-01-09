@@ -1,22 +1,26 @@
 import { NavbarData } from "./Home/NavbarData";
-import { FindDomainCardData } from "./Home/FindDomainCardData";
-import { BestHostingSectionCardData } from "./Home/BestHostingSectionCardData";
+import {FindDomainCardSectionData } from "./Home/FindDomainCardSectionData";
+import { BestHostingCardSectionData } from "./Home/BestHostingCardSectionData";
 import { OptimizeWebsiteSectionData } from "./Home/OptimizeWebsiteSectionData";
 import { PricePlanSectionData } from "./Home/PricePlanSectionData";
-import { MainInfoData,CallCenterData } from "./Home/MainInfoData";
+import { MainInfoSectionData,CallCenterSectionData } from "./Home/MainInfoSectionData";
 import { LocationSectionData } from "./Home/LocationSectionData";
 import { SliderSectionData } from "./Home/SliderSectionData";
+import { NewsEventSectionData } from "./Home/NewsEventSectionData";
+import { PartnerSectionData } from "./Home/PartnerSectionData";
 
 export {
   /* home */
 
   NavbarData,
-  FindDomainCardData,
-  BestHostingSectionCardData,
+  FindDomainCardSectionData,
+  BestHostingCardSectionData,
   OptimizeWebsiteSectionData,
   PricePlanSectionData,
-  MainInfoData,
-  CallCenterData,
+  MainInfoSectionData,
+  CallCenterSectionData,
   LocationSectionData,
   SliderSectionData,
+  NewsEventSectionData,
+  PartnerSectionData,
 };
