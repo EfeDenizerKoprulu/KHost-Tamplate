@@ -22,6 +22,8 @@ import ARLogo from "./Partners/ARLogo.png"
 import ConsultLogo from "./Partners/Consult.png"
 import MitchellLogo from "./Partners/Mitchell.png"
 import SurvatanLogo from "./Partners/Survatan.png"
+import AlphatechLogo from "./Partners/Alphatech.png"
+import WellnessLogo from "./Partners/Wellness.png"
 
 
 export{
@@ -66,4 +68,6 @@ AnalougeLogo,
 SurvatanLogo,
 MitchellLogo,
 ARLogo,
+AlphatechLogo,
+WellnessLogo,
 }
