@@ -1,23 +1,43 @@
-import { BsCloudUploadFill,BsArrowRight } from "react-icons/bs";
-import { AiFillDatabase, AiFillPhone, AiFillMail} from "react-icons/ai";
+import { BsCloudUploadFill, BsTwitter, BsArrowRight } from "react-icons/bs";
+import {
+  AiFillFacebook,
+  AiFillYoutube,
+  AiFillDatabase,
+  AiFillPhone,
+  AiFillMail,
+  AiFillLinkedin,
+} from "react-icons/ai";
 import { BiCodeAlt, BiWorld, BiSupport } from "react-icons/bi";
-import { FaUserCircle,FaRegPaperPlane, FaCubes, FaLock, FaServer, FaCommentDots } from "react-icons/fa";
-import { IoMdArrowDropleft } from "react-icons/io"
+import {
+  FaInstagramSquare,
+  FaUserCircle,
+  FaRegPaperPlane,
+  FaCubes,
+  FaLock,
+  FaServer,
+  FaCommentDots,
+} from "react-icons/fa";
+import { IoMdArrowDropleft } from "react-icons/io";
 
 export {
   BiCodeAlt,
   BiWorld,
   BiSupport,
+  BsTwitter,
   BsCloudUploadFill,
   BsArrowRight,
   FaRegPaperPlane,
   FaLock,
+  FaInstagramSquare,
   FaCubes,
   FaServer,
   FaCommentDots,
   FaUserCircle,
   AiFillDatabase,
+  AiFillFacebook,
   AiFillPhone,
   AiFillMail,
+  AiFillLinkedin,
+  AiFillYoutube,
   IoMdArrowDropleft,
 };

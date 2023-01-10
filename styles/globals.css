@@ -20,4 +20,10 @@ body {
 .aa:hover:nth-child(3) p {
   color: white;
 }
-
+.gradient{
+  background: rgb(9,70,174);
+  background: linear-gradient(117deg, rgba(9,70,174,1) 0%, rgba(6,65,171,1) 100%); 
+}
+.social-media-icons{
+  @apply p-2 hover:rounded-full ease-in-out transition-all
+}

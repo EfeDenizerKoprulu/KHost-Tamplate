@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { logo } from "../img";
 import { NavbarData } from "../Data/index";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiArrowDropDownLine, RiCloseFill } from "react-icons/ri";
@@ -11,9 +10,7 @@ const Navbar = () => {
   return (
     <header className="bg-[#0948B3] text-white sticky w-full top-0 py-4 items-center lg:px-28 px-8 shadow-sm flex z-50 justify-between box-border">
       {/*left */}
-      <div className="relative object-cover lg:w-[108px] lg:h-[25px] w-[80px] h-[20px]">
-        <Image src={logo} alt="logo" fill />
-      </div>
+      <span className="font-bold text-2xl italic cursor-pointer">EDKTamplate</span>
       {/* Right */}
       <div>
         <div
