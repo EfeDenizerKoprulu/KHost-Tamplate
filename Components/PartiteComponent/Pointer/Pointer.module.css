@@ -25,15 +25,3 @@
 .point9 {
   @apply top-[77%] left-[85%];
 }
-.point1:hover div,
-.point2:hover div,
-.point3:hover div,
-.point4:hover div,
-.point5:hover div,
-.point6:hover div,
-.point7:hover div,
-.point8:hover div,
-.point9:hover div
-{
-  display: none;
-}

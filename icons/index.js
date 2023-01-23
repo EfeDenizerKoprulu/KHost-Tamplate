@@ -16,8 +16,12 @@ import {
   FaLock,
   FaServer,
   FaCommentDots,
+  FaUser
 } from "react-icons/fa";
 import { IoMdArrowDropleft } from "react-icons/io";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { RiArrowDropDownLine, RiCloseFill } from "react-icons/ri";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export {
   BiCodeAlt,
@@ -31,6 +35,7 @@ export {
   FaInstagramSquare,
   FaCubes,
   FaServer,
+  FaUser,
   FaCommentDots,
   FaUserCircle,
   AiFillDatabase,
@@ -40,4 +45,9 @@ export {
   AiFillLinkedin,
   AiFillYoutube,
   IoMdArrowDropleft,
+  RxHamburgerMenu,
+  RiArrowDropDownLine,
+  RiCloseFill,
+  MdOutlineKeyboardArrowRight,
+
 };

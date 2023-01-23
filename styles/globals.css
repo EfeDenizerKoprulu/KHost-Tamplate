@@ -27,3 +27,7 @@ body {
 .social-media-icons{
   @apply p-2 hover:rounded-full ease-in-out transition-all
 }
+
+.dropdown{
+  @apply bg-white p-4 rounded-lg shadow-md text-black absolute top-20 -ml-8
+}
