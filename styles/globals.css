@@ -31,3 +31,6 @@ body {
 .dropdown{
   @apply bg-white p-4 rounded-lg shadow-md text-black absolute top-20 -ml-8
 }
+.subdropdown{
+  @apply bg-white p-4 rounded-lg shadow-md text-black absolute left-[11.2rem] z-10 w-full
+}

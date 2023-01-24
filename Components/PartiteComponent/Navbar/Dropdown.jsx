@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import Link from "next/link";
+import React from "react";
 import { IoMdArrowDropleft } from "../../../icons";
 
 export function Dropdown(props) {
@@ -13,21 +14,28 @@ export function Dropdown(props) {
 }
 export function DropdownItem(props) {
   return (
-    <li
+    <Link href={props.Href}
       className="list-none cursor-pointer p-2 flex  before:hover:bg-red-400 before:hover:w-[0.2rem] before:relative before:-left-6"
-      onClick={() => props.setState(!props.state)}
+      onClick={() => {
+        props.Arrow ? props.OpenSetstate(!props.Openstate) : null;  props.GetSubdropdownSetState(props.setGetSubdropdown);
+      }}
+      
     >
       {props.ItemName}
       {props.Arrow}
-      {console.log(props.aa)}
-    </li>
+    </Link>
   );
 }
 
 export function SubDropdown(props) {
-  return <div className="dropdown"> {props.children}</div>;
+  return (
+    <div className={`subdropdown ${props.top}`}>
+      {" "}
+      {props.children}
+    </div>
+  );
 }
 
 export function SubDropdownItem(props) {
-  return <div>{props.name}</div>;
+  return <Link href={props.Href} className="px-1 py-2 flex  before:hover:bg-red-400 before:hover:w-[0.2rem] before:relative before:-left-3">{props.name}</Link>;
 }
