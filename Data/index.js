@@ -1,5 +1,4 @@
 import { NavbarData } from "./Navbar";
-import { PagesDropdownData } from "./Dropdown/PagesDropdownData";
 import { FindDomainCardSectionData } from "./Home/FindDomainCardSectionData";
 import { BestHostingCardSectionData } from "./Home/BestHostingCardSectionData";
 import { OptimizeWebsiteSectionData } from "./Home/OptimizeWebsiteSectionData";
@@ -22,10 +21,6 @@ import {
 export {
   /* navbar */
   NavbarData,
-
-  /* Dropdown */
-  PagesDropdownData,
-  
   /* home */
   FindDomainCardSectionData,
   BestHostingCardSectionData,
