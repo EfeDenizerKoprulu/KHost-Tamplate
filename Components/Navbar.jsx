@@ -1,22 +1,33 @@
 import React, { useState } from "react";
 import Logo from "./PartiteComponent/Logo";
 import { NavbarData } from "../Data";
-import { RiArrowDropDownLine } from "../icons";
+import {
+  RiArrowDropDownLine,
+  IoMdArrowDropleft,
+  RxHamburgerMenu,
+} from "../icons";
 import Link from "next/link";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [TabName, setTabName] = useState("");
+  const [mobilenav, setMobilenav] = useState(false);
+  {console.log(mobilenav)}
 
   return (
-    <header className="bg-[#0948B3] top-0 z-40 flex justify-between px-20 text-white p-6 sticky shadow-sm w-full">
+    <header className="bg-[#0948B3] top-0 z-40 flex justify-between lg:px-20 text-white p-6 sticky shadow-sm w-full">
       <Logo />
       <nav>
-        {" "}
-        <ul className="flex gap-6">
+        <span
+          className="md:hidden text-3xl cursor-pointer active:opacity-60"
+          onClick={() => setMobilenav(!mobilenav)}
+        >
+          <RxHamburgerMenu />
+        </span>{" "}
+        <ul className={`md:flex md:gap-6 gap-4 bg-white md:bg-transparent md:static absolute text-black md:text-white w-full py-4 md:py-0 md:w-fit left-0 md:left-auto top-20 md:p-0 p-2 flex flex-col md:flex-row ${mobilenav ? "block" : "hidden"}`}>
           {NavbarData.map((item, index) => (
             <li
-              className="flex gap-1 items-center cursor-pointer"
+              className="md:flex gap-1 items-center cursor-pointer md:flex-row flex-col"
               key={index}
               onClick={() => {
                 setOpen(!open);
@@ -25,13 +36,15 @@ const Navbar = () => {
             >
               {item.NavItemName}{" "}
               {item.Arrow ? (
-                <span>
+                <span className="md:static absolute right-2 text-4xl md:text-base">
                   <RiArrowDropDownLine />
                 </span>
               ) : null}
               {open && item.NavItemName === TabName && item.Dropdowns ? (
                 <ul className="dropdown">
-                  <div className="relative"></div>
+                  <span className="text-5xl text-white absolute -top-6 rotate-90 mx-7 hidden md:block">
+                    <IoMdArrowDropleft />
+                  </span>
                   {item.Dropdowns?.map((subdropdown, subindex) => (
                     <Link href={`${subdropdown.Link}`} key={subindex}>
                       {" "}

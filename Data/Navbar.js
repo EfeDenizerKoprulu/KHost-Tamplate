@@ -60,6 +60,27 @@ export const NavbarData = [
   {
     NavItemName: "Company",
     Arrow:true,
-    Dropdowns:[]
+    Dropdowns:[
+      {
+        ItemName:"Contact Us",
+        Link: "/"
+      },
+      {
+        ItemName:"About Us",
+        Link: "/"
+      },
+      {
+        ItemName:"Our Partner",
+        Link: "/"
+      },
+      {
+        ItemName:"Network",
+        Link: "/"
+      },
+      {
+        ItemName:"Company Blog",
+        Link: "/"
+      },
+    ]
   },
 ];
