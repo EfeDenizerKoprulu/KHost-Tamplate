@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "../../Components/Home/SlideSectionr";
 import {
   BestHosting,
   FindDomain,
@@ -8,7 +7,9 @@ import {
   OptimizeWebsite,
   PricePlan,
   NewsEvent,
-  Partner
+  Partner,
+  Support,
+  Slider
 } from "./";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <OptimizeWebsite />
       <PricePlan />
       <MainInfo />
+      <Support/>
       <Location />
       <Slider/>
       <NewsEvent/>,

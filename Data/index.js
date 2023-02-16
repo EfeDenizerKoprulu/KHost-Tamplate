@@ -4,8 +4,7 @@ import { BestHostingCardSectionData } from "./Home/BestHostingCardSectionData";
 import { OptimizeWebsiteSectionData } from "./Home/OptimizeWebsiteSectionData";
 import { PricePlanSectionData } from "./Home/PricePlanSectionData";
 import {
-  MainInfoSectionData,
-  CallCenterSectionData,
+  MainInfoSectionData
 } from "./Home/MainInfoSectionData";
 import { LocationSectionData } from "./Home/LocationSectionData";
 import { SliderSectionData } from "./Home/SliderSectionData";
@@ -17,6 +16,7 @@ import {
   FooterResourcesData,
   FooterSupportData,
 } from "./FooterData";
+import { CallCenterSectionData } from "./Home/CallCenterData";
 
 export {
   /* navbar */

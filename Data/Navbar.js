@@ -74,7 +74,7 @@ export const NavbarData = [
         Link: "/"
       },
       {
-        ItemName:"Network",
+        ItemName:"network",
         Link: "/"
       },
       {

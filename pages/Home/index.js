@@ -6,3 +6,5 @@ export {default as OptimizeWebsite} from "../../Components/Home/OptimizeWebsiteS
 export {default as PricePlan} from "../../Components/Home/PricePlanSection";
 export {default as NewsEvent} from "../../Components/Home/NewsEventSection";
 export {default as Partner} from "../../Components/Home/PartnerSection";
+export {default as Support} from "../../Components/Home/SupportSection";
+export {default as Slider} from "../../Components/Home/SliderSection";

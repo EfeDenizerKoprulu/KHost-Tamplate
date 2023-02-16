@@ -27,7 +27,7 @@ const Navbar = () => {
         <ul className={`md:flex md:gap-6 gap-4 bg-white md:bg-transparent md:static absolute text-black md:text-white w-full py-4 md:py-0 md:w-fit left-0 md:left-auto top-20 md:p-0 p-2 flex flex-col md:flex-row ${mobilenav ? "block" : "hidden"}`}>
           {NavbarData.map((item, index) => (
             <li
-              className="md:flex gap-1 items-center cursor-pointer md:flex-row flex-col"
+              className="md:flex gap-1 items-center cursor-pointer md:flex-row flex-col font-semibold md:font-normal"
               key={index}
               onClick={() => {
                 setOpen(!open);
@@ -48,8 +48,8 @@ const Navbar = () => {
                   {item.Dropdowns?.map((subdropdown, subindex) => (
                     <Link href={`${subdropdown.Link}`} key={subindex}>
                       {" "}
-                      <li className="p-2 flex before:hover:bg-[#f67a3c] hover:h-full hover:before:w-0.5 before:relative before:-left-5">
-                        {subdropdown.ItemName}
+                      <li className="p-2 flex before:hover:bg-[#f67a3c] hover:h-full hover:before:w-0.5 before:relative before:-left-5 font-normal">
+                       <p className="last:hover:opacity-60"> {subdropdown.ItemName}</p>
                       </li>{" "}
                     </Link>
                   ))}

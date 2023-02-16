@@ -29,5 +29,6 @@ body {
 }
 
 .dropdown{
-  @apply bg-white p-4 md:rounded-lg md:shadow-md text-black md:absolute md:top-20 md:-ml-12
+  @apply bg-white p-4 md:rounded-lg md:shadow-md text-black md:absolute md:top-20 md:-ml-8
+  
 }
