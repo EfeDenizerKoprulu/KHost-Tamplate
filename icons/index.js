@@ -21,6 +21,7 @@ import {
 import { IoMdArrowDropleft } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiArrowDropDownLine, RiCloseFill } from "react-icons/ri";
+import { TiTick } from "react-icons/ti";
 
 export {
   BiCodeAlt,
@@ -47,5 +48,6 @@ export {
   RxHamburgerMenu,
   RiArrowDropDownLine,
   RiCloseFill,
+  TiTick,
 
 };

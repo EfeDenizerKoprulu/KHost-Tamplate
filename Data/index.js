@@ -3,9 +3,7 @@ import { FindDomainCardSectionData } from "./Home/FindDomainCardSectionData";
 import { BestHostingCardSectionData } from "./Home/BestHostingCardSectionData";
 import { OptimizeWebsiteSectionData } from "./Home/OptimizeWebsiteSectionData";
 import { PricePlanSectionData } from "./Home/PricePlanSectionData";
-import {
-  MainInfoSectionData
-} from "./Home/MainInfoSectionData";
+import { MainInfoSectionData } from "./Home/MainInfoSectionData";
 import { LocationSectionData } from "./Home/LocationSectionData";
 import { SliderSectionData } from "./Home/SliderSectionData";
 import { NewsEventSectionData } from "./Home/NewsEventSectionData";
@@ -17,6 +15,7 @@ import {
   FooterSupportData,
 } from "./FooterData";
 import { CallCenterSectionData } from "./Home/CallCenterData";
+import { WeShareSectionData } from "./PagesData/AboutUs/WeShareSectionData";
 
 export {
   /* navbar */
@@ -38,4 +37,7 @@ export {
   FooterProductsData,
   FooterResourcesData,
   FooterSupportData,
+
+  /* AboutPage Data */
+  WeShareSectionData,
 };
