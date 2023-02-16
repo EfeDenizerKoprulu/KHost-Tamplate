@@ -12,7 +12,6 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [TabName, setTabName] = useState("");
   const [mobilenav, setMobilenav] = useState(false);
-  {console.log(mobilenav)}
 
   return (
     <header className="bg-[#0948B3] top-0 z-40 flex justify-between lg:px-20 text-white p-6 sticky shadow-sm w-full">

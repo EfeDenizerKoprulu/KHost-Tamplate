@@ -1,9 +1,9 @@
 import React from "react";
-import { Location, Support, Slider } from "./Home";
+import { Location, Support, SliderSection } from "./Home";
 import { WeShareingImage } from "../img";
 import Image from "next/image";
 import { TiTick } from "../icons";
-import { WeShareSectionData } from "../Data";
+import { WeShareSectionData, AboutUs_CloudSectionData } from "../Data";
 
 const About = () => {
   return (
@@ -46,10 +46,21 @@ const About = () => {
       </section>
       <Location />
       <Support />
-      <section>
-        jkabjkab
+      <section className="py-12 px-56 flex flex-col">
+        {AboutUs_CloudSectionData.map((item, index) => (
+          <div className="flex justify-evenly bg-slat gap-20" key={index}>
+            {" "}
+            <div className={`flex flex-col gap-5 justify-center items-center ${index===1? "order-1":""}`}>
+              <h2 className="font-bold text-3xl w-[50%] -ml-[5.5rem]">{item.Title}</h2>
+              <p className="w-[60%] text-slate-600">{item.Content}</p>
+            </div>
+            <div className="relative object-contain  h-[40em] w-[120em]">
+              <Image src={item.Image} alt={item.Alt} fill />
+            </div>{" "}
+          </div>
+        ))}
       </section>
-      <Slider />
+      <SliderSection/>
     </>
   );
 };

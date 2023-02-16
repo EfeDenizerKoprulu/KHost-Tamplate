@@ -16,6 +16,7 @@ import {
 } from "./FooterData";
 import { CallCenterSectionData } from "./Home/CallCenterData";
 import { WeShareSectionData } from "./PagesData/AboutUs/WeShareSectionData";
+import { AboutUs_CloudSectionData } from "./PagesData/AboutUs/AboutUs_CloudSectionData";
 
 export {
   /* navbar */
@@ -40,4 +41,5 @@ export {
 
   /* AboutPage Data */
   WeShareSectionData,
+  AboutUs_CloudSectionData,
 };

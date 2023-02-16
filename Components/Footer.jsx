@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>{" "}
-      <div className="p-2">
+      <div className="bg-slate-200 bg-opacity-60 p-2">
         <p className="text-slate-600">@ Tüm Hakları Saklıdır ve EDK Software tarafından yapılmıştır</p>
       </div>
     </>
