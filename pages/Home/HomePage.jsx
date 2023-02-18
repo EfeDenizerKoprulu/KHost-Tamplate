@@ -9,7 +9,7 @@ import {
   NewsEvent,
   Partner,
   Support,
-  SliderSection
+  SliderSection,
 } from "./";
 
 const Home = () => {
@@ -20,13 +20,11 @@ const Home = () => {
       <OptimizeWebsite />
       <PricePlan />
       <MainInfo />
-      <Support/>
+      <Support />
       <Location />
-      <SliderSection/>
-      <NewsEvent/>,
-      <Partner/>
-
-      
+      <SliderSection />
+      <NewsEvent />,
+      <Partner />
     </>
   );
 };

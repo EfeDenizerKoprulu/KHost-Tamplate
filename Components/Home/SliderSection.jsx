@@ -19,12 +19,13 @@ const SliderSection = () => {
       <SliderComponent>
         {SliderSectionData.map((item) => (
           <Item
-            key={item.Id}
-            Title={item.Title}
-            Description={item.Description}
-            Img={item.Avatar}
-            AvatarName={item.AvatarName}
-            CompanyName={item.CompanyName}
+            key={item.Title}
+            title={item.Title}
+            description={item.Description}
+            img={item.Avatar}
+            imgAlt={item.Alt}
+            avatarName={item.AvatarName}
+            companyName={item.CompanyName}
           />
         ))}
       </SliderComponent>

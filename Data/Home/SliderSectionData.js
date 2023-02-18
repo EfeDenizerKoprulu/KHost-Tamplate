@@ -10,21 +10,23 @@ import {
 export const SliderSectionData = [
   {
     Id: 1,
-    Title: "Amazing Template",
+    Title: "amazing Template",
     Description:
-      "Distinctively foster maintainable metrics whereas multidisciplinary process improvements. Distinctively foster maintainable metrics whereas multidisciplinary process improvements. Objectively implement strategic niches through.",
+      "distinctively foster maintainable metrics whereas multidisciplinary process improvements. Distinctively foster maintainable metrics whereas multidisciplinary process improvements. Objectively implement strategic niches through.",
     Avatar: SliderAvatarEfe,
-    AvatarName: "Efe Denizer",
+    AvatarName: "efe Denizer",
     CompanyName: "EDK Software",
+    Alt:"1"
   },
   {
     Id: 2,
-    Title: "Best template for app",
+    Title: "best template for app",
     Description:
-      "Phosfluorescently optimize intermandated platforms without integrated infrastructures. Proactively redefine granular thinking before.",
+      "phosfluorescently optimize intermandated platforms without integrated infrastructures. Proactively redefine granular thinking before.",
     Avatar: SliderAvatarGunay,
-    AvatarName: "Fatih Günay",
-    CompanyName: "GDesign Bilişim",
+    AvatarName: "fatih Günay",
+    CompanyName: "gDesign Bilişim",
+    Alt:"1"
   },
   {
     Id: 3,
@@ -34,6 +36,7 @@ export const SliderSectionData = [
     Avatar: SliderAvatarJohn,
     AvatarName: "John Moon",
     CompanyName: "Designer",
+    Alt:"1"
   },
   {
     Id: 4,
@@ -43,6 +46,7 @@ export const SliderSectionData = [
     Avatar: SliderAvatarAna,
     AvatarName: "Ana Jolly",
     CompanyName: "WeWeekend",
+    Alt:"1"
   },
   {
     Id: 5,
@@ -52,6 +56,7 @@ export const SliderSectionData = [
     Avatar: SliderAvatarAtom,
     AvatarName: "Atom Hearson",
     CompanyName: "GainSee",
+    Alt:"1"
   },
   {
     Id: 6,
@@ -61,5 +66,6 @@ export const SliderSectionData = [
     Avatar: SliderAvatarHakan,
     AvatarName: "Hakan Eren",
     CompanyName: "Software Developer",
+    Alt:"1"
   },
 ];

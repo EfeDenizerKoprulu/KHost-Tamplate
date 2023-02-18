@@ -11,35 +11,35 @@ import {
 
 export const PartnerSectionData = [
   {
-    Id: 1,
     Image: ARLogo,
+    Alt:"PartnerImage1"
   },
   {
-    Id: 2,
     Image: AnalougeLogo,
+    Alt:"PartnerImage2"
   },
   {
-    Id: 3,
     Image: Cafe40Logo,
+    Alt:"PartnerImage3"
   },
   {
-    Id: 4,
     Image: MitchellLogo,
+    Alt:"PartnerImage4"
   },
   {
-    Id: 5,
     Image: ConsultLogo,
+    Alt:"PartnerImage5"
   },
   {
-    Id: 6,
     Image: SurvatanLogo,
+    Alt:"PartnerImage6"
   },
   {
-    Id: 7,
     Image: AlphatechLogo,
+    Alt:"PartnerImage7"
   },
   {
-    Id: 8,
     Image: WellnessLogo,
+    Alt:"PartnerImage8"
   },
 ];

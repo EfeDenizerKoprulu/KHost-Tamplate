@@ -10,12 +10,12 @@ const PartnerSection = () => {
 
       <marquee width="100%" direction="left" height="100px" behavior="scroll" scrollamount="3" scrolldelay="0" className="mt-5 p-5">
         <div className="flex gap-28">
-          {PartnerSectionData.map((item) => (
+          {PartnerSectionData.map((item,index) => (
             <span
               className="relative md:w-[9em] md:h-[9em] w-[8em] h-[8em] object-contain"
-              key={item.Id}
+              key={index}
             >
-              <Image src={item.Image} alt=""  className="hover:scale-125"/>
+              <Image src={item.Image} alt={item.Alt}  className="hover:scale-125"/>
             </span>
           ))}
         </div>

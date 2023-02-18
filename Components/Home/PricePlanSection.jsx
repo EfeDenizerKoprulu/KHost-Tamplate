@@ -20,9 +20,9 @@ const PricePlanSection = () => {
 
         {/* Card */}
         <div className="flex gap-7 items-center justify-center my-8 flex-wrap">
-          {PricePlanSectionData.map((item) => (
+          {PricePlanSectionData.map((item,index) => (
             <div
-              key={item.Id}
+              key={index}
               className="bg-white px-20 md:px-32 py-12 items-center flex flex-col gap-3 w-fit shadow-sm"
             >
               <span className="text-blue-400 text-6xl">{item.Icon}</span>
